@@ -1,3 +1,11 @@
+body {
+    padding-left: 25px;
+}
+
+h1 a {
+    color: #FCA205;
+    font-family: 'Lobster';
+}
 .page-header {
     background-color: #ff9400;
     margin-top: 0;
@@ -10,8 +18,21 @@
     text-decoration: none;
 }
 
+.page-footer {
+    background-color: #ff7400;
+    margin-top: 0;
+    padding: 10px 10px 10px 40px;
+}
+
+.page-footer h1, .page-footer h1 a, .page-footer h1 a:visited, .page-footer h1 a:active {
+	color: #ffff;
+    font-size: 26pt;
+    text-decoration: none;
+}
+
+
 .content {
-    margin-left: 140px;
+    margin-left: 40px;
 }
 
 h1, h2, h3, h4 {
@@ -19,7 +40,7 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    color: #828282;
+    color: red;
 }
 
 .save {
@@ -38,7 +59,7 @@ h1, h2, h3, h4 {
 }
 
 .post {
-    margin-bottom: 170px;
+	margin-bottom: 170px;
 }
 
 .post h1 a, .post h1 a:visited {
