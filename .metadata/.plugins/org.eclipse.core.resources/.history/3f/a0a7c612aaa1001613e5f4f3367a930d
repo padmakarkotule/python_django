@@ -1,9 +1,0 @@
-from django.conf.urls import url
-from .import views
-from mysite.urls import urlpatterns
-
-urlpatterns = [
-        url(r'^$',views.post_list, name='post_list'),
-               
-]
-
