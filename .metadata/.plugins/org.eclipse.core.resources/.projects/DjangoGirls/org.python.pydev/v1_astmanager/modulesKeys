@@ -1,0 +1,16 @@
+MODULES_MANAGER_V2
+blog.__init__|C:\Padmakar\python_django\DjangoGirls\blog\__init__.py
+blog.admin|C:\Padmakar\python_django\DjangoGirls\blog\admin.py
+blog.apps|C:\Padmakar\python_django\DjangoGirls\blog\apps.py
+blog.forms|C:\Padmakar\python_django\DjangoGirls\blog\forms.py
+blog.migrations.0001_initial|C:\Padmakar\python_django\DjangoGirls\blog\migrations\0001_initial.py
+blog.migrations.__init__|C:\Padmakar\python_django\DjangoGirls\blog\migrations\__init__.py
+blog.models|C:\Padmakar\python_django\DjangoGirls\blog\models.py
+blog.tests|C:\Padmakar\python_django\DjangoGirls\blog\tests.py
+blog.urls|C:\Padmakar\python_django\DjangoGirls\blog\urls.py
+blog.views|C:\Padmakar\python_django\DjangoGirls\blog\views.py
+manage|C:\Padmakar\python_django\DjangoGirls\manage.py
+mysite.__init__|C:\Padmakar\python_django\DjangoGirls\mysite\__init__.py
+mysite.settings|C:\Padmakar\python_django\DjangoGirls\mysite\settings.py
+mysite.urls|C:\Padmakar\python_django\DjangoGirls\mysite\urls.py
+mysite.wsgi|C:\Padmakar\python_django\DjangoGirls\mysite\wsgi.py
