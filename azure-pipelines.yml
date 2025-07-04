@@ -1,0 +1,21 @@
+trigger:
+  branches:
+    include:
+      - master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.9'
+
+- script: |
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+  displayName: 'Install dependencies'
+
+- script: |
+    python manage.py test
+  displayName: 'Run Django tests'
