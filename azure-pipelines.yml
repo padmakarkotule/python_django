@@ -1,7 +1,4 @@
-trigger:
-  branches:
-    include:
-      - master
+trigger: none  # ⛔️ Prevents auto-trigger on pushes
 
 pool:
   vmImage: 'ubuntu-latest'
