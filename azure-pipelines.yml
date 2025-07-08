@@ -1,18 +1,12 @@
-trigger: none  # ⛔️ Prevents auto-trigger on pushes
+trigger:
+- main  # or use the branch name where you place this file
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: linux-org  # match your agent pool name
 
-steps:
-- task: UsePythonVersion@0
-  inputs:
-    versionSpec: '3.9'
+jobs:
+- job: HelloWorld
+  steps:
+    - script: echo "Hello, world from self-hosted agent!"
+      displayName: Say Hello
 
-- script: |
-    python -m pip install --upgrade pip
-    pip install -r requirements.txt
-  displayName: 'Install dependencies'
-
-- script: |
-    python manage.py test
-  displayName: 'Run Django tests'
